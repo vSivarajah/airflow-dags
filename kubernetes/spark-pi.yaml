@@ -1,7 +1,7 @@
 aapiVersion: "sparkoperator.k8s.io/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-pi
+  name: spark-pi-new
   namespace: spark-operator
 spec:
   type: Scala
