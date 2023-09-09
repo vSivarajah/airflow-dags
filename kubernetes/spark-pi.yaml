@@ -1,7 +1,7 @@
-apiVersion: "sparkoperator.k8s.io/v1beta2"
+aapiVersion: "sparkoperator.k8s.io/v1beta2"
 kind: SparkApplication
 metadata:
-  name: spark-pi2
+  name: spark-pi
   namespace: spark-operator
 spec:
   type: Scala
@@ -38,3 +38,4 @@ spec:
     volumeMounts:
       - name: "test-volume"
         mountPath: "/tmp"
+
