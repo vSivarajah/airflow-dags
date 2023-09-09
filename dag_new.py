@@ -52,6 +52,10 @@ submit = SparkKubernetesOperator(
     application_file='spark-pi.yaml',
     kubernetes_conn_id='kubernetes_default',
     do_xcom_push=True,
+    api_group="sparkoperator.k8s.io",
+    api_version="v1beta2",
+    dag=dag
+
 )
 
 
